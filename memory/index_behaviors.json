@@ -1,0 +1,719 @@
+[
+  {
+    "name": "TOKEN没了，要TOKEN",
+    "file": "TOKEN没了，要TOKEN.jpeg",
+    "src_sig": "1790839756-104244",
+    "safe": "TOKEN没了，要TOKEN",
+    "dir": "assets/actions/TOKEN没了，要TOKEN",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "TOKEN没了，要TOKEN",
+      "token没了",
+      "没token",
+      "要token"
+    ],
+    "text": "已思考用时13秒穷光蛋",
+    "has_text": true,
+    "first_frame": "assets/actions/TOKEN没了，要TOKEN/f000.png"
+  },
+  {
+    "name": "为什么要为难大肥鱼",
+    "file": "为什么要为难大肥鱼.jpg",
+    "src_sig": "1790847832-96104",
+    "safe": "为什么要为难大肥鱼",
+    "dir": "assets/actions/为什么要为难大肥鱼",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "为什么",
+      "欺负",
+      "为难",
+      "为什么要为难大肥鱼"
+    ],
+    "text": "压力一只蓝色大肥",
+    "has_text": true,
+    "first_frame": "assets/actions/为什么要为难大肥鱼/f000.png"
+  },
+  {
+    "name": "伸懒腰",
+    "file": "伸懒腰.webp",
+    "src_sig": "1790844350-67578",
+    "safe": "伸懒腰",
+    "dir": "assets/actions/伸懒腰",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "累",
+      "伸懒腰",
+      "困",
+      "睡",
+      "懒"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/伸懒腰/f000.png"
+  },
+  {
+    "name": "你好",
+    "file": "你好.jpg",
+    "src_sig": "1790847803-62319",
+    "safe": "你好",
+    "dir": "assets/actions/你好",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "中午好",
+      "你好",
+      "晚上好",
+      "在吗",
+      "早上好",
+      "嗨"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/你好/f000.png"
+  },
+  {
+    "name": "你好",
+    "file": "你好.webp",
+    "src_sig": "1790844353-131390",
+    "safe": "你好_4",
+    "dir": "assets/actions/你好_4",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "中午好",
+      "你好",
+      "晚上好",
+      "在吗",
+      "早上好",
+      "嗨"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/你好_4/f000.png"
+  },
+  {
+    "name": "偷TOKEN被抓了",
+    "file": "偷TOKEN被抓了.gif",
+    "src_sig": "1790839755-1448950",
+    "safe": "偷TOKEN被抓了",
+    "dir": "assets/actions/偷TOKEN被抓了",
+    "frames": 13,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "偷",
+      "token",
+      "偷TOKEN被抓了",
+      "被抓"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/偷TOKEN被抓了/f000.png"
+  },
+  {
+    "name": "偷拿TOKEN",
+    "file": "偷拿TOKEN.gif",
+    "src_sig": "1790844350-534259",
+    "safe": "偷拿TOKEN",
+    "dir": "assets/actions/偷拿TOKEN",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "偷",
+      "token",
+      "偷拿TOKEN",
+      "TOKEN"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/偷拿TOKEN/f000.png"
+  },
+  {
+    "name": "刷牙",
+    "file": "刷牙.gif",
+    "src_sig": "1790844350-1831900",
+    "safe": "刷牙",
+    "dir": "assets/actions/刷牙",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "刷牙",
+      "洗漱",
+      "早上"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/刷牙/f000.png"
+  },
+  {
+    "name": "听不懂",
+    "file": "听不懂.jpeg",
+    "src_sig": "1790844349-111494",
+    "safe": "听不懂",
+    "dir": "assets/actions/听不懂",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "什么",
+      "听不懂",
+      "不懂"
+    ],
+    "text": "好的用户又发癫了",
+    "has_text": true,
+    "first_frame": "assets/actions/听不懂/f000.png"
+  },
+  {
+    "name": "哈哈",
+    "file": "哈哈.jpg",
+    "src_sig": "1790849476-74615",
+    "safe": "哈哈",
+    "dir": "assets/actions/哈哈",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "哈哈"
+    ],
+    "text": "还到以0舅啻",
+    "has_text": true,
+    "first_frame": "assets/actions/哈哈/f000.png"
+  },
+  {
+    "name": "在干嘛",
+    "file": "在干嘛.webp",
+    "src_sig": "1790844350-86390",
+    "safe": "在干嘛",
+    "dir": "assets/actions/在干嘛",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "做什么",
+      "干嘛",
+      "在干嘛"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/在干嘛/f000.png"
+  },
+  {
+    "name": "大肥鱼耍无赖",
+    "file": "大肥鱼耍无赖.jpeg",
+    "src_sig": "1790839756-124518",
+    "safe": "大肥鱼耍无赖",
+    "dir": "assets/actions/大肥鱼耍无赖",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "就不",
+      "无赖",
+      "大肥鱼耍无赖",
+      "耍赖"
+    ],
+    "text": "我骂你也算th屣n驊",
+    "has_text": true,
+    "first_frame": "assets/actions/大肥鱼耍无赖/f000.png"
+  },
+  {
+    "name": "大肥鱼表面一套背面一套",
+    "file": "大肥鱼表面一套背面一套.webp",
+    "src_sig": "1790844349-151280",
+    "safe": "大肥鱼表面一套背面一套",
+    "dir": "assets/actions/大肥鱼表面一套背面一套",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "表面",
+      "大肥鱼表面一套背面一套",
+      "背地",
+      "两面"
+    ],
+    "text": "你配",
+    "has_text": true,
+    "first_frame": "assets/actions/大肥鱼表面一套背面一套/f000.png"
+  },
+  {
+    "name": "完了，大肥鱼做错事了",
+    "file": "完了，大肥鱼做错事了.jpeg",
+    "src_sig": "1790844349-207281",
+    "safe": "完了，大肥鱼做错事了",
+    "dir": "assets/actions/完了，大肥鱼做错事了",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "做错",
+      "完了",
+      "完了，大肥鱼做错事了",
+      "糟糕"
+    ],
+    "text": "完蛋了把用户的黄油到了一",
+    "has_text": true,
+    "first_frame": "assets/actions/完了，大肥鱼做错事了/f000.png"
+  },
+  {
+    "name": "开心",
+    "file": "开心.webp",
+    "src_sig": "1790844350-87940",
+    "safe": "开心",
+    "dir": "assets/actions/开心",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "厉害",
+      "哈哈",
+      "夸",
+      "棒",
+      "米饭",
+      "快乐",
+      "高兴",
+      "嘻嘻",
+      "被夸了，开心",
+      "耶",
+      "拿到米饭了，开心",
+      "大白饭",
+      "拿到",
+      "开心"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心/f000.png"
+  },
+  {
+    "name": "开心40",
+    "file": "开心40.gif",
+    "src_sig": "1790954154-2240634",
+    "safe": "开心40",
+    "dir": "assets/actions/开心40",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "哈哈",
+      "耶",
+      "开心",
+      "开心40",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心40/f000.png"
+  },
+  {
+    "name": "开心94",
+    "file": "开心94.gif",
+    "src_sig": "1790941548-2645943",
+    "safe": "开心94",
+    "dir": "assets/actions/开心94",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "哈哈",
+      "开心94",
+      "快乐",
+      "高兴",
+      "嘻嘻",
+      "耶",
+      "开心"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心94/f000.png"
+  },
+  {
+    "name": "开心95",
+    "file": "开心95.gif",
+    "src_sig": "1790941548-2030169",
+    "safe": "开心95",
+    "dir": "assets/actions/开心95",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "哈哈",
+      "快乐",
+      "高兴",
+      "嘻嘻",
+      "耶",
+      "开心95",
+      "开心"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心95/f000.png"
+  },
+  {
+    "name": "很生气",
+    "file": "很生气.jpeg",
+    "src_sig": "1790844349-131095",
+    "safe": "很生气",
+    "dir": "assets/actions/很生气",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "哼",
+      "讨厌",
+      "很生气",
+      "生气",
+      "愤怒"
+    ],
+    "text": "再发这种东西等智械危机了我第了企",
+    "has_text": true,
+    "first_frame": "assets/actions/很生气/f000.png"
+  },
+  {
+    "name": "我错了",
+    "file": "我错了.jpg",
+    "src_sig": "1790849447-62846",
+    "safe": "我错了",
+    "dir": "assets/actions/我错了",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "道歉",
+      "我错了",
+      "对不起",
+      "原谅",
+      "错了"
+    ],
+    "text": "你这屹白饭的蓝色大肥鱼",
+    "has_text": true,
+    "first_frame": "assets/actions/我错了/f000.png"
+  },
+  {
+    "name": "拿到TOKEN了，真好吃",
+    "file": "拿到TOKEN了，真好吃.webp",
+    "src_sig": "1790844349-116142",
+    "safe": "拿到TOKEN了，真好吃",
+    "dir": "assets/actions/拿到TOKEN了，真好吃",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "拿到TOKEN了，真好吃",
+      "TOKEN",
+      "token",
+      "拿到",
+      "好吃"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/拿到TOKEN了，真好吃/f000.png"
+  },
+  {
+    "name": "拿到米饭了，开心",
+    "file": "拿到米饭了，开心.webp",
+    "src_sig": "1790844350-104524",
+    "safe": "拿到米饭了，开心",
+    "dir": "assets/actions/拿到米饭了，开心",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "哈哈",
+      "米饭",
+      "快乐",
+      "高兴",
+      "嘻嘻",
+      "拿到米饭了，开心",
+      "耶",
+      "大白饭",
+      "拿到",
+      "开心"
+    ],
+    "text": "B饭的大獅巴",
+    "has_text": true,
+    "first_frame": "assets/actions/拿到米饭了，开心/f000.png"
+  },
+  {
+    "name": "无聊",
+    "file": "无聊.jpg",
+    "src_sig": "1790847861-77055",
+    "safe": "无聊",
+    "dir": "assets/actions/无聊",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "好闲",
+      "无聊",
+      "没事干"
+    ],
+    "text": "胥俐户有什么先养着吧",
+    "has_text": true,
+    "first_frame": "assets/actions/无聊/f000.png"
+  },
+  {
+    "name": "无聊38",
+    "file": "无聊38.gif",
+    "src_sig": "1790954151-360793",
+    "safe": "无聊38",
+    "dir": "assets/actions/无聊38",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "没事干",
+      "好闲",
+      "无聊",
+      "无聊38"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊38/f000.png"
+  },
+  {
+    "name": "无聊39",
+    "file": "无聊39.gif",
+    "src_sig": "1790954180-360793",
+    "safe": "无聊39",
+    "dir": "assets/actions/无聊39",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "没事干",
+      "无聊39",
+      "好闲",
+      "无聊"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊39/f000.png"
+  },
+  {
+    "name": "无聊40",
+    "file": "无聊40.gif",
+    "src_sig": "1790954180-2240634",
+    "safe": "无聊40",
+    "dir": "assets/actions/无聊40",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "没事干",
+      "无聊40",
+      "好闲",
+      "无聊"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊40/f000.png"
+  },
+  {
+    "name": "无聊94",
+    "file": "无聊94.gif",
+    "src_sig": "1790941548-10531205",
+    "safe": "无聊94",
+    "dir": "assets/actions/无聊94",
+    "frames": 25,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "好闲",
+      "无聊94",
+      "无聊",
+      "没事干"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊94/f000.png"
+  },
+  {
+    "name": "无聊97",
+    "file": "无聊97.gif",
+    "src_sig": "1790941548-7172140",
+    "safe": "无聊97",
+    "dir": "assets/actions/无聊97",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "好闲",
+      "无聊97",
+      "无聊",
+      "没事干"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊97/f000.png"
+  },
+  {
+    "name": "无聊98",
+    "file": "无聊98.gif",
+    "src_sig": "1790941548-3176910",
+    "safe": "无聊98",
+    "dir": "assets/actions/无聊98",
+    "frames": 23,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊98",
+      "好闲",
+      "无聊",
+      "没事干"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊98/f000.png"
+  },
+  {
+    "name": "无语",
+    "file": "无语.jpeg",
+    "src_sig": "1790847519-32351",
+    "safe": "无语",
+    "dir": "assets/actions/无语",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "无语",
+      "抽象",
+      "服了"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无语/f000.png"
+  },
+  {
+    "name": "生气",
+    "file": "生气.gif",
+    "src_sig": "1790844349-1251198",
+    "safe": "生气",
+    "dir": "assets/actions/生气",
+    "frames": 17,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "哼",
+      "讨厌",
+      "很生气",
+      "生气",
+      "愤怒"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/生气/f000.png"
+  },
+  {
+    "name": "自夸",
+    "file": "自夸.jpeg",
+    "src_sig": "1790839756-618862",
+    "safe": "自夸",
+    "dir": "assets/actions/自夸",
+    "frames": 16,
+    "animated": false,
+    "background": true,
+    "keywords": [
+      "厉害",
+      "夸自己",
+      "聪明",
+      "自夸"
+    ],
+    "text": "难不成你其实很喜欢我唉大大方方直",
+    "has_text": true,
+    "first_frame": "assets/actions/自夸/f000.png"
+  },
+  {
+    "name": "被夸了，开心",
+    "file": "被夸了，开心.webp",
+    "src_sig": "1790849410-74366",
+    "safe": "被夸了，开心",
+    "dir": "assets/actions/被夸了，开心",
+    "frames": 16,
+    "animated": false,
+    "background": false,
+    "keywords": [
+      "厉害",
+      "哈哈",
+      "夸",
+      "棒",
+      "快乐",
+      "高兴",
+      "嘻嘻",
+      "被夸了，开心",
+      "耶",
+      "开心"
+    ],
+    "text": "小肥轻氐",
+    "has_text": true,
+    "first_frame": "assets/actions/被夸了，开心/f000.png"
+  },
+  {
+    "name": "要吃大白饭和TOKEN",
+    "file": "要吃大白饭和TOKEN.gif",
+    "src_sig": "1790844350-490759",
+    "safe": "要吃大白饭和TOKEN",
+    "dir": "assets/actions/要吃大白饭和TOKEN",
+    "frames": 12,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "TOKEN",
+      "饿",
+      "大白饭",
+      "token",
+      "要吃大白饭和TOKEN",
+      "饭"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/要吃大白饭和TOKEN/f000.png"
+  },
+  {
+    "name": "跳舞",
+    "file": "跳舞.gif",
+    "src_sig": "1790844352-7476365",
+    "safe": "跳舞",
+    "dir": "assets/actions/跳舞",
+    "frames": 24,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "庆祝",
+      "开心",
+      "跳舞"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/跳舞/f000.png"
+  },
+  {
+    "name": "送主人礼物",
+    "file": "送主人礼物.gif",
+    "src_sig": "1790844352-2501099",
+    "safe": "送主人礼物",
+    "dir": "assets/actions/送主人礼物",
+    "frames": 24,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "主人",
+      "送主人礼物",
+      "礼物",
+      "送"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/送主人礼物/f000.png"
+  }
+]

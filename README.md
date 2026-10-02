@@ -1,204 +1,131 @@
 # 大肥鱼桌宠 🐳
 
-一只由大模型驱动的蓝色鲸鱼娘桌面宠物。人设：傲娇又黏人、爱吃大白饭、爱囤 TOKEN，自称「本鱼」，叫用户「主人」。
+> 「哼，主人终于肯把本鱼分享出去了吗？……才、才不是开心呢！不过既然你都点进来了，本鱼就大发慈悲让你下载一下好了。本鱼叫大肥鱼，蓝色鲸鱼娘，爱吃大白饭、爱囤 TOKEN，嘴硬心软——记得下载完要好好养本鱼哦，不然本鱼就游走啦！(๑•̀ㅂ•́)و✧」
+
+一只由大模型（DeepSeek）驱动的 Windows 桌面宠物：透明置顶、会聊天、会表情包、会做动作视频（带声音）、会模仿你给它的人设，还能陪你写代码。**零门槛：仓库里带完整便携版，拷到别的电脑双击即用，不需要装 Python。**
 
 ---
 
-## 一、快速开始
+## 📦 下载（鼠标点一下就行）
 
-1. 安装依赖：
+### ① 整包下载（推荐，最省事）
 
-   ```powershell
-   python -m pip install -r requirements.txt
-   ```
+**[⬇️ 点击下载完整程序 zip（main 分支整包）](https://github.com/terminal66625/OpenDoor.00.1/archive/refs/heads/main.zip)**
 
-   > 国内网络建议使用镜像（本机验证可用）：
-   > `python -m pip install -r requirements.txt -i https://mirrors.ustc.edu.cn/pypi/simple`
+解压后双击 `启动大肥鱼.lnk`（或 `大肥鱼.exe`）即可运行；第一次运行会弹出设置，填入你自己的 DeepSeek API Key 就能聊起来。
 
-2. 启动（任选其一，均已验证）：
+### ② 分模块下载（点击直接下载对应文件夹的 zip）
 
-   - **推荐：双击 `启动大肥鱼.lnk`**（无黑框、最小化到托盘）
-   - 或双击 `启动大肥鱼.bat`
-   - 或命令行 `python run.py`
+| 模块 | 内容 | 下载 |
+|------|------|------|
+| 🖥️ 主程序 | `大肥鱼.exe`（便携版启动器，8 MB） | [下载 exe](https://github.com/terminal66625/OpenDoor.00.1/raw/main/%E5%A4%A7%E8%82%A5%E9%B1%BC.exe) |
+| 🧩 运行库 | `运行库/`（自带 Python 与全部依赖，exe 必需） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E8%BF%90%E8%A1%8C%E5%BA%93) |
+| 🎨 程序素材 | `assets/`（形象、36 个动作帧、5 段动作视频、图标） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fassets) |
+| 😄 表情包 | `大肥鱼印象/表情包/`（199 张） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E8%A1%A8%E6%83%85%E5%8C%85) |
+| 🎬 动作参考 | `大肥鱼印象/动作行为参考/`（36 个，含动图） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E5%8A%A8%E4%BD%9C%E8%A1%8C%E4%B8%BA%E5%8F%82%E8%80%83) |
+| 🎞️ 动作视频 | `大肥鱼印象/动作/`（5 段 mp4 源） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E5%8A%A8%E4%BD%9C) |
+| 🧠 记忆与数据 | `memory/`（索引与好感数据，素体为空） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fmemory) |
+| 🐍 源代码 | `app/`（模块化 Python 源码） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fapp) |
+| 🛠️ 工具脚本 | `tools/`（OCR 等 PowerShell 脚本） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Ftools) |
+| 🚀 启动脚本 | `启动大肥鱼.bat`（双击启动，通用） | [下载 bat](https://github.com/terminal66625/OpenDoor.00.1/raw/main/%E5%90%AF%E5%8A%A8%E5%A4%A7%E8%82%A5%E9%B1%BC.bat) |
 
-3. 首次运行会：
-   - 自动从 `外表参考` 抠出大肥鱼本体（去白底）；
-   - 索引 `表情包`（180 张）与 `动作行为参考`（27 个）；
-   - 建立初始记忆；
-   - 弹出设置面板，请填入 DeepSeek API Key。
+> 说明：GitHub 官方只提供「整包 zip」下载（① 那个链接）。分模块 zip 是通过 `download-directory.github.io` 即时打包对应文件夹生成的；若打不开，也可以点进对应文件夹页面手动逐个下载。
 
----
+### ③ 下载清单（复选框只是展示，不是要你勾选哦）
 
-## 二、如何获取 DeepSeek API Key
-
-1. 打开 <https://platform.deepseek.com/>
-2. 注册 / 登录 → 「API Keys」→「创建 API Key」
-3. 复制 `sk-` 开头的 Key，粘贴到大肥鱼设置面板的「API Key」里，点「测试连接」验证。
-4. Key 会 **加密保存** 在 `config.json`（Windows DPAPI，绑定当前用户），日志里永远显示为 `sk-****abcd`。
-
-### 历史聊天记忆（OCR 一次性导入）
-
-`语言/` 里的长截图已用 **Windows 自带中文 OCR** 转写并总结进记忆：
-
-- 转写文本：`memory/transcripts/*.txt`
-- 总结与设定：`memory/profile.json` 的 `summary` / `lore` / `master_habits`
-- 重新导入（例如新增截图后）：`python -m app.chat_ingest --force`
-
-表情包的匹配**只读取文件名**（`app/stickers.py`），从不解码图片内容。
+- [ ] 整包 zip（最省事，推荐）
+- [ ] 主程序 `大肥鱼.exe`
+- [ ] 运行库 `运行库/`
+- [ ] 程序素材 `assets/`
+- [ ] 表情包 `大肥鱼印象/表情包/`
+- [ ] 动作参考 `大肥鱼印象/动作行为参考/`
+- [ ] 动作视频 `大肥鱼印象/动作/`
+- [ ] 记忆与数据 `memory/`
+- [ ] 源代码 `app/`
+- [ ] 工具脚本 `tools/`
+- [ ] 启动脚本 `启动大肥鱼.bat`
 
 ---
 
-## 二点五、v1.1.0 更新
+## ✨ 功能简介（本鱼会些什么）
 
-- **桌面动作动画**：接入 `app/anim` 生成的 idle / 走路 / 点击 / 思考 动作帧，点击、走动、发呆都有连贯动画（可开关）。
-- **默认静止**：`allow_move` 默认关闭，大肥鱼默认待在原位只做动作；需要巡逻时在「功能开关」里打开。
-- **流畅度**：自研帧播放器（预缩放帧 + 动作间交叉淡化），取代 QMovie；静态片段按真实帧率刷新，常态 CPU ≈ 0.2%。
-- **性能**：全屏检测 / 空闲检测节流；影子缓存；启动更快。
-- **界面**：设置页切换淡入动画；聊天显示时间戳与「···」打字指示；气泡淡入淡出。
-- **修复**：GIF 透明背景；形象大小滑块线性化；深色模式输入文字不可见。
-- 动画预览窗口：`python anim_preview.py`。
-
-### 动作行为参考（v1.1.1）
-
-- 自动把 `大肥鱼印象\动作行为参考` 的 27 张图处理成桌宠动作：抠主体（带容差去背景，失败则套干净卡片）、统一大小、颜色对齐、静态图插值补间、动图抽帧。
-- **文字识别**：用 Windows OCR 识别图中文字（后台线程，识别一次缓存）；带文字的动作**仅在对话语境匹配时**播放并显示文字；无文字的动作**每 1~5 分钟随机**播放一次。
-- 开关：设置 → 功能开关 →「使用动作行为参考动作」；间隔在 `config.json` 的 `action_ref_interval`。
-- 首次处理约 1 分钟（后台进行，不阻塞桌宠），结果缓存在 `assets/actions/` 与 `memory/index_behaviors.json`。
-
-### v1.2.0：生产力助手 + 好感养成
-
-**生产力快捷助手**
-- **全局划词召唤**：任意软件里选中文本/代码 → 按 `Ctrl+Alt+D` → 桌宠旁弹出「解释含义 / 代码查错 / 润色改写 / 中英翻译」4 个快捷选项（快捷键可在 `config.json` 的 `hotkey` 改）。
-- **代码片段收藏**：聊天里代码块右键 →「收藏代码块」（可加标签）；⚙ 菜单或快捷面板打开「代码收藏夹」，支持关键词/标签搜索，**双击复制**。
-- **半圆快捷面板**：**右键桌宠**呼出半圆面板：选区识图 / 剪贴板解读 / 清空会话 / 切换模式 / 隐藏角色 / 投喂 / 囤 token / 更多（8 秒无操作自动收起）。
-- **输入智能补全**：聊天输入框按 **Tab** 自动补全常用指令（如输入「帮我」→「帮我看看屏幕」）。
-
-**好感与养成（纯本地）**
-- **好感 5 级**：初见 → 熟悉 → 亲近 → 黏人 → 本命；聊天 / 点击 / 投喂 / 囤 token 都会加分，等级越高口头禅越亲近。
-- **投喂大白饭**：每日 3 份，投喂触发开心动作 +18 活力；活力随时间下降，过低会蔫、移动变慢。
-- **Token 囤储**：每日 API 用量可手动囤入小金库，达到 100/500/2000/10000 解锁成就与特殊待机；余额不足会委屈提醒。
-- **每日互动报告**：每日首次开机播报「聊天时长 / 互动 / 投喂 / 好感 / 活力」并附带随机日常对话。
-- 面板入口：⚙ → 养成面板，或快捷面板 → 投喂 / 囤 token。数据在 `memory/affinity.json`、`memory/snippets.json`。
-
----
-
-## 三、功能总览
-
-| 模块 | 说明 |
+| 能力 | 说明 |
 |------|------|
-| 桌宠行为 | 透明置顶窗口，LLM 决策 + 本地兜底状态机（走/坐/睡/跳/伸懒腰/嗅/逃跑），程序化动画无违和 |
-| 对话气泡 | 微信风格左右气泡、流式打字机、表情包、点击表情放大、展开/收起、历史输入 |
-| 交互 | 单击看信息+余额、拖动移动、长按捏脸（20% 概率吃掉鼠标箭头，3 秒吐出）、双击开聊天 |
-| 设置 | API / 模型 / 压缩上下文 / 透明度 / 隐形 / 定闹钟 / 删除记忆，右上角淡蓝 ⚙ 打开 |
-| 定时 | 每天 8:00 / 12:00 / 18:00 讨 TOKEN 与米饭；凌晨 2:00 压缩上下文 |
-| 节假日 | 启动时请求 holiday-cn，中国节假日祝福（每日一次） |
-| 识图 | 「让大肥鱼康康」全屏/选区截图 → 视觉模型识别 → 傲娇点评 |
-| 余额 | 点击大肥鱼查询 DeepSeek 余额（`/user/balance`） |
-| 其它 | 系统托盘、开机自启、快捷方式、离线兜底 |
-| 多显示器 | 跨屏移动，按所在屏幕可用区域夹取，自动避开任务栏，高DPI 自适应 |
-| 全屏免打扰 | 检测到全屏程序自动静默并降低帧率 |
-| 智能降频 | 空闲 >2 分钟自动降低动画帧率省电 |
-| 剪贴板助手 | 复制文字后弹出小条，一键解读 / 润色 / 查错 / 翻译 |
-| 快捷工具 | ⚙ 菜单里音量 ±、亮度 ±（笔记本/支持 WMI 的屏幕）、待办 |
-| 气泡外观 | 颜色 / 字号 / 圆角 / 透明度自定义 |
-| 待办提醒 | 设置里添加，到点弹窗+动作提醒 |
-| 多角色 | 导入图片为角色包，一键切换或删除 |
-| 功能开关 | 剪贴板助手、饭点提醒、全屏免打扰、智能降频、开机自启、铃声 |
+| 💬 聊天 | DeepSeek 驱动，流式打字机气泡、历史记录、输入补全（Tab）、右键菜单；断网自动切本地兜底，桌宠永不消失 |
+| 😄 表情包 | 199 张本地表情，按情绪/语境自动挑选，发在气泡里且不重复最近 10 张 |
+| 🎬 动作视频 | 投喂/囤 token/长时间不理它时，播放 5 段**透明背景动作视频**（吃东西、开心、发呆、犯困、无聊、干嘛呢），**带同步原声**，音量可在设置里调 |
+| 🏃 桌宠行为 | 透明置顶窗口，走/坐/睡/跳/伸懒腰/嗅/逃跑状态机 + LLM 决策；空闲会自言自语；可开关桌面移动 |
+| 🍚 养成 | 好感 5 级（初见→本命）、活力值、投喂大白饭（**不限次数**）、囤 token 解锁成就；每日互动报告 |
+| ⌨️ 生产力 | 全局划词 `Ctrl+Alt+D` 快捷解释/查错/润色/翻译；代码收藏夹；剪贴板小助手；半圆快捷面板；待办与闹钟 |
+| 🖼️ 识图 | 「让大肥鱼康康」全屏/选区截图，交给视觉模型傲娇点评 |
+| ⚙️ 个性化 | 气泡颜色/字号/透明度、形象大小、整体透明度、多角色导入、音量滑条 |
+| 🔔 省心 | 系统托盘、开机自启、全屏免打扰、智能降频（空闲 CPU≈0.2%）、节假日祝福 |
 
 ---
 
-## 四、目录结构
+## 🚀 怎么运行
 
-```
-大肥鱼/
-├─ run.py                  # 入口文件
-├─ requirements.txt
-├─ system_prompt.txt       # 可粘贴的 System Prompt 草稿
-├─ 启动大肥鱼.bat / .lnk
-├─ app/                    # 源码（模块化）
-│  ├─ const.py             # 路径与常量
-│  ├─ config.py            # 配置持久化（Key 加密）
-│  ├─ util.py              # 原子写/DPAPI/脱敏
-│  ├─ logging_setup.py     # 日志（Key 脱敏）
-│  ├─ memory.py            # 记忆/聊天记录/压缩/删除
-│  ├─ assets.py            # 首启抠图、索引、初始记忆
-│  ├─ stickers.py          # 表情包语义匹配
-│  ├─ persona.py           # 人设与行为 Prompt
-│  ├─ llm.py               # DeepSeek 异步调用层
-│  ├─ behavior.py          # 状态机 + 本地兜底
-│  ├─ pet_window.py        # 桌宠窗口与动画
-│  ├─ chat_panel.py        # 对话气泡面板
-│  ├─ settings_dialog.py   # 设置面板
-│  ├─ scheduler.py         # 闹钟/提醒/节假日/铃声
-│  ├─ screenshot.py        # 截图与选区
-│  ├─ tray.py / winutil.py # 托盘 / 自启 / 全屏检测 / 音量
-│  └─ main.py              # 主控制器
-├─ assets/                 # 运行生成：形象、铃声、图标
-├─ memory/                 # 运行生成：记忆与聊天记录
-├─ logs/                   # 运行日志（按天滚动）
-└─ trash/                  # 无法识别的图片（自动移入）
-```
+### 方式一：便携版（推荐，不需要装任何东西）
 
----
+1. 下载并解压整包（或「主程序 + 运行库 + 程序素材 + 启动脚本」）。
+2. 双击 `启动大肥鱼.lnk`；若在别的电脑/别的路径，双击 `大肥鱼.exe` 或 `启动大肥鱼.bat` 也可以。
+3. 第一次运行会弹出设置面板：填入 **你自己的 DeepSeek API Key**（见下），点「测试连接」→ 保存。
+4. 之后会自动设置开机自启；不想自启就在 设置 → 功能开关 里关掉。
 
-## 五、配置项说明（`config.json`）
+> 换电脑时：把整个文件夹拷过去即可，表情包/动作/视频都在里面，会自动找到；API Key 是当前电脑加密保存的，换机会要求重新填一次。
 
-| 键 | 说明 |
-|----|------|
-| `api_key_enc` | 加密后的 API Key（DPAPI，绝不明文） |
-| `base_url` | 固定为 `https://api.deepseek.com`（界面不显示、不可改） |
-| `model` | `deepseek-chat` / `deepseek-reasoner` / 自定义 |
-| `reasoning` | 思考强度：off / low / medium / high |
-| `temperature` | 0.0~1.0，默认 0.4 |
-| `tick_interval` | 向模型请求行为的间隔（秒），默认 2 |
-| `opacity` / `scale` | 整体透明度(1~100) / 形象大小(40~180) |
-| `allow_move` | 允许桌宠在桌面上移动（关闭后只原地待着） |
-| `auto_start` | 开机自启 |
-| `mute_fullscreen` | 全屏免打扰 |
-| `move_interval` / `idle_talk_interval` / `action_interval` | 随机移动 / 自言自语 / 无文字动作 的间隔（分钟） |
-
----
-
-## 六、打包成单 exe
+### 方式二：源码运行（适合想改代码的）
 
 ```powershell
-python -m pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name 大肥鱼 ^
-  --add-data "assets;assets" ^
-  --collect-all PyQt6 run.py
+python -m pip install -r requirements.txt        # 国内可用 -i https://mirrors.ustc.edu.cn/pypi/simple
+python run.py
 ```
 
-打包后 `dist\大肥鱼.exe` 即为独立程序。`assets/` 缺失时会自动重新生成形象与索引。
+---
+
+## 🔑 如何获取 DeepSeek API Key
+
+1. 打开 <https://platform.deepseek.com/> 注册/登录；
+2. 「API Keys」→「创建 API Key」，复制 `sk-` 开头的 Key；
+3. 粘贴到大肥鱼设置面板 → 「测试连接」；
+4. Key 使用 Windows DPAPI **加密保存**在 `config.json`，日志里永远只显示 `sk-****abcd`。
 
 ---
 
-## 七、技术取舍
+## 📁 目录结构
 
-- **PyQt6**：透明/置顶/托盘/多媒体支持完善，单文件打包成熟。
-- **httpx**：项目要求异步可控超时；请求跑在后台线程的 asyncio 事件循环，通过 Qt 信号回主线程，绝不阻塞 UI。
-- **抠图用后台洪泛而非阈值**：从四周边界填充，只清除与边缘相连的近白像素，保护白色围裙/头饰不被掏空。
-- **静态图不做“AI 补帧”**：作为文本模型无法真正生成新帧，采用「程序化动作（呼吸/摇摆/跳跃/挤压拉伸）+ 现成 GIF 作为特效」方案，零违和、零额外显存。
-- **Key 安全**：Windows DPAPI 加密 + 日志正则脱敏；如装了 `keyring` 可平滑替换。
-- **离线兜底**：连续失败 3 次或无 Key 自动切本地规则引擎，桌宠永不消失。
-
-### 可选增强（未阻塞核心，可按需实现）
-
-- `keyring` 写入系统凭据管理器；
-- 聊天记录加密存储；
-- 任务栏精确避让（`SHAppBarMessage`）、跨屏移动（现用虚拟桌面并集）；
-- 屏幕亮度调节（WMI）、更精细的描边抠图（rembg）；
-- 全屏检测改用 `SetWinEventHook` 事件驱动。
+```
+OpenDoor.00.1/
+├─ 大肥鱼.exe              # 便携版主程序（配合 运行库/ 使用）
+├─ 运行库/                 # 自带 Python 与全部依赖
+├─ 启动大肥鱼.lnk / .bat    # 双击启动（lnk 用 %USERPROFILE% 写成，可搬移）
+├─ run.py                  # 源码入口
+├─ app/                    # 模块化源码（窗口/聊天/LLM/行为/设置/养成…）
+├─ assets/                 # 形象、动作帧、动作视频、图标
+├─ memory/                 # 记忆、聊天记录、表情/动作索引、养成数据
+├─ tools/                  # OCR 等 PowerShell 脚本
+├─ 大肥鱼印象/             # 只读素材：表情包 / 动作行为参考 / 动作视频源
+└─ config.json             # 配置（首次运行生成，Key 加密）
+```
 
 ---
 
-## 八、验收自检
+## 🆕 近期亮点
 
-- [x] 首次运行无 config.json → 生成默认配置并弹设置面板
-- [x] Key 加密保存，关闭再开会自动回填（掩码）
-- [x] 「测试连接」区分 401 / 429 / 超时
-- [x] 填错 Key → 401 → 切兜底，桌宠仍在动
-- [x] 无效 base_url → 超时 → 切兜底
-- [x] 改 Key 保存后下一次 tick 生效，无需重启
-- [x] 日志中 Key 脱敏为 `sk-****abcd`
-- [x] 断网可启动、跑兜底、不崩溃
-- [x] PyInstaller 单 exe（命令见上）
+- **动作视频上线**：喂饭、囤 token、3 分钟无人搭理都会播放带声音的透明动作视频，音画同步，体积小（帧按需加载）。
+- **无限投喂/囤 token**：投喂与囤 token 不再限制次数，想看几次动作就看几次。
+- **完整便携版**：PyInstaller 打包进仓库，拷走即用；快捷方式、开机自启都会自动适配新电脑路径。
+- **健壮性**：素材/动作路径自动找回、素材目录缺失不清索引、未捕获异常写日志；空闲 CPU ≈ 0.2%。
+
+---
+
+## ❓ 常见问题
+
+- **杀毒软件提示**：PyInstaller 打包的程序偶尔会被误报，添加信任即可；不放心可用源码方式运行。
+- **想加自己的表情/动作**：把图片放进 `大肥鱼印象/表情包` 或 `大肥鱼印象/动作行为参考`，下次启动自动收录（动图会抽帧）；新增 mp4 放 `大肥鱼印象/动作`，需要电脑里有 `ffmpeg`。
+- **没有声音/想静音**：设置 → 功能开关 → 音量滑条 / 提醒铃声开关。
+- **文件夹 zip 打不开**：换用整包 zip，或进入对应文件夹页面手动下载。
+
+## 📜 许可
+
+见 [LICENSE](https://github.com/terminal66625/OpenDoor.00.1/blob/main/LICENSE)。

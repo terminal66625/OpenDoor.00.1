@@ -1,0 +1,55 @@
+{
+  "api_key_enc": "",
+  "base_url": "https://api.deepseek.com",
+  "model": "DeepSeek V4.1 Flash",
+  "reasoning": "low",
+  "temperature": 1.0,
+  "tick_interval": 2,
+  "key_verified": false,
+  "last_verify_at": "",
+  "window_pos": null,
+  "opacity": 100,
+  "scale": 72,
+  "auto_start": true,
+  "sound_enabled": true,
+  "mute_fullscreen": true,
+  "smart_downclock": true,
+  "clipboard_helper": true,
+  "meal_reminder": true,
+  "allow_move": false,
+  "use_anim_clips": true,
+  "use_action_refs": true,
+  "use_radial_menu": true,
+  "use_movies": true,
+  "action_volume": 50,
+  "idle_movie_interval": 180,
+  "close_documents": true,
+  "boot_watch_debug": false,
+  "hotkey": "Ctrl+Alt+D",
+  "action_ref_interval": [
+    1,
+    5
+  ],
+  "character": "大肥鱼",
+  "move_interval": [
+    5,
+    10
+  ],
+  "idle_talk_interval": [
+    5,
+    10
+  ],
+  "action_interval": [
+    1,
+    5
+  ],
+  "theme": {
+    "ai_color": "#dcecff",
+    "user_color": "#c8f0c8",
+    "text_color": "#22364f",
+    "font_size": 13,
+    "radius": 10,
+    "opacity": 98
+  },
+  "version": 1
+}

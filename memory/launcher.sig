@@ -1,0 +1,1 @@
+%USERPROFILE%\Desktop\大肥鱼完整程序\大肥鱼.exe||%USERPROFILE%\Desktop\大肥鱼完整程序

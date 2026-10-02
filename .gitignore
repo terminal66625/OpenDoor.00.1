@@ -1,0 +1,11 @@
+# 运行日志与回收站（运行时生成，无需入库）
+*.log
+logs/
+trash/
+*.tmp
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+启动大肥鱼.lnk
