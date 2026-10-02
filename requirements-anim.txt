@@ -1,4 +1,0 @@
-# 动画帧插值模块的可选依赖（不装也能用 Pillow 兜底）
-apngasm-python>=1.3.2
-numpy>=1.24
-Pillow>=10
