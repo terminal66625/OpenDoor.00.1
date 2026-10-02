@@ -6,7 +6,7 @@ PyQt6-sip>=13
 httpx>=0.27
 Pillow>=10
 requests>=2.31
-platformdirs>=4
+numpy>=1.24
 
 # 打包成单 exe（可选）
 # pyinstaller>=6.0

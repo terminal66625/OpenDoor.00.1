@@ -77,9 +77,12 @@
 ### 方式二：源码运行（适合想改代码的）
 
 ```powershell
+# 需要 Python 3.10+（推荐 3.12/3.14）
 python -m pip install -r requirements.txt        # 国内可用 -i https://mirrors.ustc.edu.cn/pypi/simple
 python run.py
-```
+`
+
+> 想自己导出/处理动画素材，可再装 python -m pip install -r requirements-anim.txt（可选）。``
 
 ---
 

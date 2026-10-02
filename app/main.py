@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """大肥鱼桌宠主控制器：串联窗口、对话、LLM、定时、设置。"""
+from __future__ import annotations
 import ctypes
 import json
 import math
