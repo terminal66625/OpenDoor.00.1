@@ -1,0 +1,15 @@
+# 配置与日志（含敏感信息，绝不入库）
+config.json
+*.log
+logs/
+trash/
+
+# 运行生成的数据
+memory/
+assets/
+*.tmp
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec

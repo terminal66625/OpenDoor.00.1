@@ -1,0 +1,12 @@
+# 大肥鱼桌宠依赖
+# Python 3.10+（本机验证：Python 3.14.6）
+PyQt6>=6.6
+PyQt6-Qt6>=6.6
+PyQt6-sip>=13
+httpx>=0.27
+Pillow>=10
+requests>=2.31
+platformdirs>=4
+
+# 打包成单 exe（可选）
+# pyinstaller>=6.0
