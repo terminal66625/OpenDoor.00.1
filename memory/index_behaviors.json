@@ -294,6 +294,248 @@
     "first_frame": "assets/actions/开心/f000.png"
   },
   {
+    "name": "开心140",
+    "file": "开心140.gif",
+    "src_sig": "1790990093-4448620",
+    "safe": "开心140",
+    "dir": "assets/actions/开心140",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心140",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心140/f000.png"
+  },
+  {
+    "name": "开心141",
+    "file": "开心141.gif",
+    "src_sig": "1790990093-4448620",
+    "safe": "开心141",
+    "dir": "assets/actions/开心141",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心141",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心141/f000.png"
+  },
+  {
+    "name": "开心142",
+    "file": "开心142.gif",
+    "src_sig": "1790989018-2276248",
+    "safe": "开心142",
+    "dir": "assets/actions/开心142",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心142",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心142/f000.png"
+  },
+  {
+    "name": "开心143",
+    "file": "开心143.gif",
+    "src_sig": "1790989018-2276248",
+    "safe": "开心143",
+    "dir": "assets/actions/开心143",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心143",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心143/f000.png"
+  },
+  {
+    "name": "开心144",
+    "file": "开心144.gif",
+    "src_sig": "1790989018-2645943",
+    "safe": "开心144",
+    "dir": "assets/actions/开心144",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐",
+      "开心144"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心144/f000.png"
+  },
+  {
+    "name": "开心145",
+    "file": "开心145.gif",
+    "src_sig": "1790989018-2645943",
+    "safe": "开心145",
+    "dir": "assets/actions/开心145",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心145",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心145/f000.png"
+  },
+  {
+    "name": "开心146",
+    "file": "开心146.gif",
+    "src_sig": "1790989018-2645943",
+    "safe": "开心146",
+    "dir": "assets/actions/开心146",
+    "frames": 22,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心146",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心146/f000.png"
+  },
+  {
+    "name": "开心147",
+    "file": "开心147.gif",
+    "src_sig": "1790989018-3717917",
+    "safe": "开心147",
+    "dir": "assets/actions/开心147",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "开心147",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心147/f000.png"
+  },
+  {
+    "name": "开心148",
+    "file": "开心148.gif",
+    "src_sig": "1790989018-3717917",
+    "safe": "开心148",
+    "dir": "assets/actions/开心148",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "开心148",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心148/f000.png"
+  },
+  {
+    "name": "开心149",
+    "file": "开心149.gif",
+    "src_sig": "1790989017-12640856",
+    "safe": "开心149",
+    "dir": "assets/actions/开心149",
+    "frames": 25,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心149",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心149/f000.png"
+  },
+  {
+    "name": "开心150",
+    "file": "开心150.gif",
+    "src_sig": "1790989016-9683066",
+    "safe": "开心150",
+    "dir": "assets/actions/开心150",
+    "frames": 24,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "耶",
+      "开心",
+      "开心150",
+      "哈哈",
+      "嘻嘻",
+      "高兴",
+      "快乐"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/开心150/f000.png"
+  },
+  {
     "name": "开心40",
     "file": "开心40.gif",
     "src_sig": "1790954154-2240634",
@@ -461,6 +703,215 @@
     "text": "胥俐户有什么先养着吧",
     "has_text": true,
     "first_frame": "assets/actions/无聊/f000.png"
+  },
+  {
+    "name": "无聊140",
+    "file": "无聊140.gif",
+    "src_sig": "1790990093-4448620",
+    "safe": "无聊140",
+    "dir": "assets/actions/无聊140",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊140",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊140/f000.png"
+  },
+  {
+    "name": "无聊141",
+    "file": "无聊141.gif",
+    "src_sig": "1790990093-4448620",
+    "safe": "无聊141",
+    "dir": "assets/actions/无聊141",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊141",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊141/f000.png"
+  },
+  {
+    "name": "无聊142",
+    "file": "无聊142.gif",
+    "src_sig": "1790990093-4448620",
+    "safe": "无聊142",
+    "dir": "assets/actions/无聊142",
+    "frames": 20,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊142",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊142/f000.png"
+  },
+  {
+    "name": "无聊143",
+    "file": "无聊143.gif",
+    "src_sig": "1790989018-3717917",
+    "safe": "无聊143",
+    "dir": "assets/actions/无聊143",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊143",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊143/f000.png"
+  },
+  {
+    "name": "无聊144",
+    "file": "无聊144.gif",
+    "src_sig": "1790989018-3717917",
+    "safe": "无聊144",
+    "dir": "assets/actions/无聊144",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊144",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊144/f000.png"
+  },
+  {
+    "name": "无聊145",
+    "file": "无聊145.gif",
+    "src_sig": "1790989018-4200586",
+    "safe": "无聊145",
+    "dir": "assets/actions/无聊145",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊145",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊145/f000.png"
+  },
+  {
+    "name": "无聊146",
+    "file": "无聊146.gif",
+    "src_sig": "1790989018-4200586",
+    "safe": "无聊146",
+    "dir": "assets/actions/无聊146",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "好闲",
+      "无聊146"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊146/f000.png"
+  },
+  {
+    "name": "无聊147",
+    "file": "无聊147.gif",
+    "src_sig": "1790989017-4200586",
+    "safe": "无聊147",
+    "dir": "assets/actions/无聊147",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊147",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊147/f000.png"
+  },
+  {
+    "name": "无聊148",
+    "file": "无聊148.gif",
+    "src_sig": "1790989017-4200586",
+    "safe": "无聊148",
+    "dir": "assets/actions/无聊148",
+    "frames": 26,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊148",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊148/f000.png"
+  },
+  {
+    "name": "无聊149",
+    "file": "无聊149.gif",
+    "src_sig": "1790989017-1494173",
+    "safe": "无聊149",
+    "dir": "assets/actions/无聊149",
+    "frames": 23,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "好闲",
+      "无聊149"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊149/f000.png"
+  },
+  {
+    "name": "无聊150",
+    "file": "无聊150.gif",
+    "src_sig": "1790989017-2237897",
+    "safe": "无聊150",
+    "dir": "assets/actions/无聊150",
+    "frames": 21,
+    "animated": true,
+    "background": true,
+    "keywords": [
+      "无聊",
+      "没事干",
+      "无聊150",
+      "好闲"
+    ],
+    "text": "",
+    "has_text": false,
+    "first_frame": "assets/actions/无聊150/f000.png"
   },
   {
     "name": "无聊38",

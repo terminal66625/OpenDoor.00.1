@@ -20,9 +20,9 @@
 |------|------|------|
 | 🖥️ 主程序 | `大肥鱼.exe`（便携版启动器，8 MB） | [下载 exe](https://github.com/terminal66625/OpenDoor.00.1/raw/main/%E5%A4%A7%E8%82%A5%E9%B1%BC.exe) |
 | 🧩 运行库 | `运行库/`（自带 Python 与全部依赖，exe 必需） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E8%BF%90%E8%A1%8C%E5%BA%93) |
-| 🎨 程序素材 | `assets/`（形象、36 个动作帧、5 段动作视频、图标） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fassets) |
-| 😄 表情包 | `大肥鱼印象/表情包/`（199 张） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E8%A1%A8%E6%83%85%E5%8C%85) |
-| 🎬 动作参考 | `大肥鱼印象/动作行为参考/`（36 个，含动图） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E5%8A%A8%E4%BD%9C%E8%A1%8C%E4%B8%BA%E5%8F%82%E8%80%83) |
+| 🎨 程序素材 | `assets/`（形象、58 个动作帧、5 段动作视频、图标） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fassets) |
+| 😄 表情包 | `大肥鱼印象/表情包/`（263 张） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E8%A1%A8%E6%83%85%E5%8C%85) |
+| 🎬 动作参考 | `大肥鱼印象/动作行为参考/`（58 个，含动图） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E5%8A%A8%E4%BD%9C%E8%A1%8C%E4%B8%BA%E5%8F%82%E8%80%83) |
 | 🎞️ 动作视频 | `大肥鱼印象/动作/`（5 段 mp4 源） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2F%E5%A4%A7%E8%82%A5%E9%B1%BC%E5%8D%B0%E8%B1%A1%2F%E5%8A%A8%E4%BD%9C) |
 | 🧠 记忆与数据 | `memory/`（索引与好感数据，素体为空） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fmemory) |
 | 🐍 源代码 | `app/`（模块化 Python 源码） | [下载 zip](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fterminal66625%2FOpenDoor.00.1%2Ftree%2Fmain%2Fapp) |
@@ -52,7 +52,7 @@
 | 能力 | 说明 |
 |------|------|
 | 💬 聊天 | DeepSeek 驱动，流式打字机气泡、历史记录、输入补全（Tab）、右键菜单；断网自动切本地兜底，桌宠永不消失 |
-| 😄 表情包 | 199 张本地表情，按情绪/语境自动挑选，发在气泡里且不重复最近 10 张 |
+| 😄 表情包 | 263 张本地表情，按情绪/语境自动挑选，发在气泡里且不重复最近 10 张 |
 | 🎬 动作视频 | 投喂/囤 token/长时间不理它时，播放 5 段**透明背景动作视频**（吃东西、开心、发呆、犯困、无聊、干嘛呢），**带同步原声**，音量可在设置里调 |
 | 🏃 桌宠行为 | 透明置顶窗口，走/坐/睡/跳/伸懒腰/嗅/逃跑状态机 + LLM 决策；空闲会自言自语；可开关桌面移动 |
 | 🍚 养成 | 好感 5 级（初见→本命）、活力值、投喂大白饭（**不限次数**）、囤 token 解锁成就；每日互动报告 |
@@ -115,6 +115,7 @@ OpenDoor.00.1/
 
 ## 🆕 近期亮点
 
+- **素材扩充**：表情包 199 → 263 张，动作参考 36 → 58 个（新增「开心 / 无聊」系列动图共 22 个新动作，启动时自动加工成帧序列）。
 - **动作视频上线**：喂饭、囤 token、3 分钟无人搭理都会播放带声音的透明动作视频，音画同步，体积小（帧按需加载）。
 - **无限投喂/囤 token**：投喂与囤 token 不再限制次数，想看几次动作就看几次。
 - **完整便携版**：PyInstaller 打包进仓库，拷走即用；快捷方式、开机自启都会自动适配新电脑路径。
