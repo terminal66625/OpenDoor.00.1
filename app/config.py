@@ -14,7 +14,7 @@ log = setup_logging()
 DEFAULTS: Dict[str, Any] = {
     "api_key_enc": "",              # 加密后的 Key（不明文）
     "base_url": const.DEFAULT_BASE_URL,
-    "model": const.ACTIVE_MODEL,    # 固定：DeepSeek V4.1 Flash
+    "model": const.ACTIVE_MODEL,    # 默认官方可用模型（deepseek-chat）
     "reasoning": "low",             # 固定：low（思考强度）
     "temperature": 0.4,
     "tick_interval": 2,             # 行为决策间隔(秒)

@@ -419,8 +419,8 @@ def build_library(force: bool = False) -> List[Dict]:
             p = os.path.join(ACTIONS_OUT, d)
             if os.path.isdir(p) and d not in keep:
                 shutil.rmtree(p, ignore_errors=True)
-    except OSError:
-        pass
+    except OSError as e:
+        log.warning("清理旧动作目录失败：%s", e)
 
     atomic_write_json(BEHAVIOR_INDEX, items)
     new_cnt = sum(1 for it in items if it not in cached)
@@ -444,8 +444,8 @@ def _to_trash(path: str, fn: str) -> None:
         dst = os.path.join(const.TRASH_DIR, fn)
         if not os.path.exists(dst):
             shutil.move(path, dst)
-    except Exception:
-        pass
+    except Exception as e:
+        log.warning("移入 trash 失败（%s）：%s", fn, e)
 
 
 # ================================================================ OCR 后台

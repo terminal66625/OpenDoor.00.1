@@ -78,7 +78,7 @@ TODOS_PATH = os.path.join(MEMORY_DIR, "todos.json")
 DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-chat"        # 官方兜底模型（当 ACTIVE_MODEL 不可用时自动回退）
 DEFAULT_REASONER = "deepseek-reasoner"
-ACTIVE_MODEL = "DeepSeek V4.1 Flash"   # 固定使用的模型名
+ACTIVE_MODEL = DEFAULT_MODEL           # 首启默认模型：用官方可用名，避免新用户首次 400/404
 DEFAULT_VISION_MODEL = "deepseek-chat"  # 若用户配置了视觉模型可替换
 HOLIDAY_URL = "https://cdn.jsdelivr.net/gh/NateScarlet/holiday-cn@master/{year}.json"
 

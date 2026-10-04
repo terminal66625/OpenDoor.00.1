@@ -264,8 +264,8 @@ def _to_trash(path: str, fn: str) -> None:
     try:
         os.makedirs(const.TRASH_DIR, exist_ok=True)
         shutil.move(path, os.path.join(const.TRASH_DIR, fn))
-    except Exception:
-        pass
+    except Exception as e:
+        log.warning("移入 trash 失败（%s）：%s", fn, e)
 
 
 # ================================================================ 记忆

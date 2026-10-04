@@ -34,7 +34,7 @@ from .memory import Memory
 from .persona import RESPONSIBILITY, SCREEN_SYSTEM_FULL, behavior_prompt, chat_system
 from .pet_window import PetWindow
 from .scheduler import Scheduler
-from .screenshot import grab_screen, pixmap_to_data_url
+from .screenshot import grab_screen, image_to_data_url
 from .settings_dialog import SettingsDialog
 from .stickers import StickerLibrary
 from .tray import Tray
@@ -95,6 +95,7 @@ IDLE_TALK = {
 
 class DafeiyuApp(QObject):
     movies_built = pyqtSignal()
+    shot_ready = pyqtSignal(str)          # 截图编码完成（后台线程 -> 主线程）
 
     def __init__(self, qapp: QApplication) -> None:
         super().__init__()
@@ -218,6 +219,7 @@ class DafeiyuApp(QObject):
         self.chat.send_message.connect(self._on_user_message)
         self.chat.request_screenshot.connect(self.do_screenshot)
         self.chat.save_code.connect(self._save_chat_code)
+        self.shot_ready.connect(self._on_shot_ready)
 
         self.clip_watcher.copied.connect(self._on_clipboard)
         self.clip_bar.action.connect(self._on_clip_action)
@@ -338,8 +340,24 @@ class DafeiyuApp(QObject):
             self._shot_hidden = []
 
     def _on_captured(self, pixmap) -> None:
+        """抓到图后：PNG 编码/压缩放到后台线程，避免卡住界面。"""
+        if pixmap is None or pixmap.isNull():
+            return
         self.open_chat()
-        data_url = pixmap_to_data_url(pixmap)
+        img = pixmap.toImage()
+        import threading
+        threading.Thread(target=self._encode_shot, args=(img,), daemon=True,
+                         name="shot-encode").start()
+
+    def _encode_shot(self, img) -> None:
+        try:
+            url = image_to_data_url(img)
+        except Exception as e:
+            log.warning("截图编码失败：%s", e)
+            url = ""
+        self.shot_ready.emit(url)
+
+    def _on_shot_ready(self, data_url: str) -> None:
         if not data_url:
             return
         self.chat.add_user("（让大肥鱼康康屏幕）")
@@ -1035,8 +1053,8 @@ class DafeiyuApp(QObject):
             if getattr(self, "affinity", None):
                 self.affinity.flush()
             self.llm.stop()
-        except Exception:
-            pass
+        except Exception as e:
+            log.warning("退出清理失败：%s", e)
         self.tray.hide()
         self.qapp.quit()
 

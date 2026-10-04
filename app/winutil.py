@@ -186,8 +186,8 @@ def ensure_shortcut() -> str:
             os.makedirs(const.MEMORY_DIR, exist_ok=True)
             with open(sig_path, "w", encoding="utf-8") as f:
                 f.write(sig)
-        except OSError:
-            pass
+        except OSError as e:
+            log.warning("写入快捷方式签名失败：%s", e)
     return made
 
 

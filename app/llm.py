@@ -10,9 +10,8 @@ import json
 import threading
 from typing import Any, Dict, List, Optional
 
+import httpx
 from PyQt6.QtCore import QObject, pyqtSignal
-
-httpx = None   # 在后台线程里延迟导入，加快启动
 
 from . import const
 from .logging_setup import setup_logging
@@ -60,9 +59,6 @@ class LLMClient(QObject):
         self._thread.start()
 
     def _run_loop(self) -> None:
-        global httpx
-        import httpx as _httpx
-        httpx = _httpx
         self._loop = asyncio.new_event_loop()
         asyncio.set_event_loop(self._loop)
         self._client = httpx.AsyncClient(timeout=TIMEOUT, follow_redirects=True)

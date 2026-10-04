@@ -1,32 +1,54 @@
 # -*- coding: utf-8 -*-
-"""全屏 / 选区截图，并转为可供视觉模型使用的 data URL。"""
+"""全屏 / 选区截图，并转为可供视觉模型使用的 data URL（支持多显示器）。"""
 import base64
-from io import BytesIO
 
 from PyQt6.QtCore import QBuffer, QByteArray, QRect, Qt, pyqtSignal, QPoint
-from PyQt6.QtGui import QGuiApplication, QPainter, QColor, QPen, QPixmap
+from PyQt6.QtGui import (QColor, QGuiApplication, QImage, QPainter, QPen,
+                         QPixmap)
 from PyQt6.QtWidgets import QWidget
 
 
 def grab_screen() -> QPixmap:
-    screen = QGuiApplication.primaryScreen()
-    if screen is None:
+    """抓取整个虚拟桌面（含所有显示器），返回原始像素位图。"""
+    screens = QGuiApplication.screens()
+    if not screens:
         return QPixmap()
-    return screen.grabWindow(0)
+    vrect = QRect()
+    for s in screens:
+        vrect = vrect.united(s.geometry())
+    dpr = max((s.devicePixelRatio() for s in screens), default=1.0)
+    canvas = QPixmap(int(vrect.width() * dpr), int(vrect.height() * dpr))
+    canvas.fill(QColor(0, 0, 0, 0))
+    painter = QPainter(canvas)
+    for s in screens:
+        shot = s.grabWindow(0)
+        g = s.geometry()
+        target = QRect(int((g.x() - vrect.x()) * dpr), int((g.y() - vrect.y()) * dpr),
+                       int(g.width() * dpr), int(g.height() * dpr))
+        painter.drawPixmap(target, shot)
+    painter.end()
+    return canvas
+
+
+def image_to_data_url(img: QImage, max_w: int = 1280) -> str:
+    """QImage -> PNG data URL（QImage 可跨线程读取，编码可放后台线程）。"""
+    if img is None or img.isNull():
+        return ""
+    if img.width() > max_w:
+        img = img.scaledToWidth(max_w, Qt.TransformationMode.SmoothTransformation)
+    ba = QByteArray()
+    buf = QBuffer(ba)
+    buf.open(QBuffer.OpenModeFlag.WriteOnly)
+    img.save(buf, "PNG")
+    buf.close()
+    b64 = base64.b64encode(bytes(ba)).decode("ascii")
+    return f"data:image/png;base64,{b64}"
 
 
 def pixmap_to_data_url(pix: QPixmap, max_w: int = 1280) -> str:
     if pix.isNull():
         return ""
-    if pix.width() > max_w:
-        pix = pix.scaledToWidth(max_w, Qt.TransformationMode.SmoothTransformation)
-    ba = QByteArray()
-    buf = QBuffer(ba)
-    buf.open(QBuffer.OpenModeFlag.WriteOnly)
-    pix.save(buf, "PNG")
-    buf.close()
-    b64 = base64.b64encode(bytes(ba)).decode("ascii")
-    return f"data:image/png;base64,{b64}"
+    return image_to_data_url(pix.toImage(), max_w)
 
 
 class RegionSelector(QWidget):
@@ -47,8 +69,10 @@ class RegionSelector(QWidget):
         right = max(r.right() for r in rects)
         bottom = max(r.bottom() for r in rects)
         self._virtual = QRect(left, top, right - left, bottom - top)
-        # 先抓取全屏，避免覆盖层挡住
+        # 先抓取全屏，避免覆盖层挡住（含所有显示器，物理像素）
         self._full = grab_screen()
+        self._dpr = max((s.devicePixelRatio() for s in QGuiApplication.screens()),
+                        default=1.0)
         self.setGeometry(self._virtual)
         self._origin = None
         self._current = None
@@ -89,9 +113,12 @@ class RegionSelector(QWidget):
             # 视为点击 -> 全屏
             self.captured.emit(self._full)
         else:
-            gx = sel.x() + self._virtual.x()
-            gy = sel.y() + self._virtual.y()
-            self.captured.emit(self._full.copy(sel))
+            # 选区是逻辑坐标、截图是物理像素：按 DPI 换算后裁剪
+            phys = QRect(int(sel.x() * self._dpr), int(sel.y() * self._dpr),
+                         int(sel.width() * self._dpr), int(sel.height() * self._dpr))
+            shot = self._full.copy(phys)
+            shot.setDevicePixelRatio(self._full.devicePixelRatio() or self._dpr)
+            self.captured.emit(shot)
         self.close()
 
     def keyPressEvent(self, e) -> None:

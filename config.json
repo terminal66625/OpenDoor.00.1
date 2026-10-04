@@ -1,7 +1,7 @@
 {
   "api_key_enc": "",
   "base_url": "https://api.deepseek.com",
-  "model": "DeepSeek V4.1 Flash",
+  "model": "deepseek-chat",
   "reasoning": "low",
   "temperature": 1.0,
   "tick_interval": 2,
